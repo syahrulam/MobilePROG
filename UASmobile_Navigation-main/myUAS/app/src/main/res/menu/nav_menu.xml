@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_tulis"
+        android:icon="@drawable/ic_baseline_create_24"
+        android:title="Tulis"/>
+
+    <item
+        android:id="@+id/nav_buku"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Buku"/>
+    <item
+        android:id="@+id/nav_sampah"
+        android:icon="@drawable/ic_baseline_restore_from_trash_24"
+        android:title="Sampah"/>
+
+    <item android:title="Login">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Login"/>
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_developer"
+                android:title="Developer"/>
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/ic_baseline_bug_report_24"
+                android:title="Report"/>
+        </menu>
+    </item>
+
+
+</menu>

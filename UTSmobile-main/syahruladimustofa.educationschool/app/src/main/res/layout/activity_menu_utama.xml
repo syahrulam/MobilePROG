@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUtama">
+
+  <Button
+      android:id="@+id/btnsmp"
+      android:layout_width="108dp"
+      android:layout_height="53dp"
+      android:text="Buku SMP"
+      tools:layout_editor_absoluteX="73dp"
+      tools:layout_editor_absoluteY="624dp" />
+
+  <Button
+      android:id="@+id/btntosd"
+      android:layout_width="109dp"
+      android:layout_height="57dp"
+      android:text="Buku SD"
+      tools:layout_editor_absoluteX="74dp"
+      tools:layout_editor_absoluteY="435dp" />
+
+  <ImageView
+      android:id="@+id/imgsd"
+      android:layout_width="111dp"
+      android:layout_height="105dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.246"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.519"
+      app:srcCompat="@drawable/sd" />
+
+  <ImageView
+      android:id="@+id/imgmadrasah"
+      android:layout_width="109dp"
+      android:layout_height="109dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.758"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.524"
+      app:srcCompat="@drawable/madrasah" />
+
+  <ImageView
+      android:id="@+id/imgsma"
+      android:layout_width="99dp"
+      android:layout_height="107dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.737"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.814"
+      app:srcCompat="@drawable/smp" />
+
+  <Button
+      android:id="@+id/btnma"
+      android:layout_width="109dp"
+      android:layout_height="57dp"
+      android:text="Buku MA"
+      tools:layout_editor_absoluteX="229dp"
+      tools:layout_editor_absoluteY="437dp" />
+
+  <Button
+      android:id="@+id/btnsma"
+      android:layout_width="101dp"
+      android:layout_height="52dp"
+      android:text="Buku SMA"
+      tools:layout_editor_absoluteX="229dp"
+      tools:layout_editor_absoluteY="627dp" />
+
+  <ImageView
+      android:id="@+id/imgsmp"
+      android:layout_width="106dp"
+      android:layout_height="115dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.242"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.821"
+      app:srcCompat="@drawable/smk" />
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="410dp"
+      android:layout_height="274dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/bukumk" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
